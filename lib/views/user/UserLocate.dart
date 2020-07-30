@@ -132,6 +132,7 @@ class _LocateState extends State<UserLocate> {
     // List<User> list = data.list;
     if (list != null && list.length != 0) {
       for (var item in list) {
+        if(item.location!=null)
         markers.add(
           Marker(
             markerId: MarkerId(item.id),

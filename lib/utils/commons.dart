@@ -10,7 +10,8 @@ import 'package:intl/intl.dart';
 class Commons {
   //global Flags
   static const port = 3000;
-  static const baseURL = "testcenas.ddns.net:$port";
+  static const baseURL = "tracker-app-api.herokuapp.com";
+  // static const baseURL = "testcenas.ddns.net:$port";
   // static const baseURL = "10.0.2.2:$port";
   static const userAsTrackedEntity = true;
   static final logs = true;
