@@ -8,9 +8,6 @@ const config = require('./config');
 
 let app = express();
 
-//set port to the defined port in config file
-process.env.PORT = config.port;
-
 //Set up default mongoose connection
 const mongoose = require('mongoose');
 const mongoDB = config.mongodb;
