@@ -1,0 +1,6 @@
+POST:
+curl.exe -i -X POST -H "Content-Type: application/json" -d '{"id":"atrelado 1","location":{"latitude":"38.522082","longitude":"-8.838784"} }' localhost:3000/trackedentity
+curl.exe -i -X POST -H "Content-Type: application/json" -d '{ "name":"type" }' localhost:3000/category
+
+GET ALL:
+curl.exe -i -H "Accept: application/json" localhost:3000/trackedentity
