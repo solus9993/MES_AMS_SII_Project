@@ -5,7 +5,7 @@ var config = {
     // baseURL: "http://localhost",
     baseURL: "https://tracker-app-api.herokuapp.com/",
     // baseURL: "http://testcenas.ddns.net",
-    cronZoneCount: true,
+    cronZoneCount: false,
     permissions:{
         admin: 'admin_permission',
         request_all_users: 'request_all_users',
