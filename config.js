@@ -3,9 +3,9 @@ var config = {
     secret: 'sdkljhv93048hfv89ren',
     port: 3000,
     // baseURL: "http://localhost",
-    baseURL: "https://tracker-app-api.herokuapp.com/",
+    baseURL: "https://tracker-app-api.herokuapp.com",
     // baseURL: "http://testcenas.ddns.net",
-    cronZoneCount: false,
+    cronZoneCount: true,
     permissions:{
         admin: 'admin_permission',
         request_all_users: 'request_all_users',
