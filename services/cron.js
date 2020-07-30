@@ -9,7 +9,7 @@ exports.zoneCount = () => {
     if (config.cronZoneCount) {
         cron.schedule('*/10 * * * * *', () => {
             axios.all([
-                axios.put(config.baseURL + ':' + process.env.PORT + '/zone/recount'),
+                axios.put(config.baseURL + '/zone/recount'),
             ]).then(axios.spread((response1) => {
                 // console.log(response1.data.url);
             })).catch(error => {
